@@ -7,29 +7,29 @@ from helpers.filters import other_filters2
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
-    await message.reply_sticker("CAACAgQAAx0CTv65QgABBfJlYF6VCrGMm6OJ23AxHmD6qUSWESsAAhoQAAKm8XEeD5nrjz5IJFYeBA")
+    await message.reply_sticker("CAACAgUAAxkBAAEJX5NgelpPxIp7TxBi31AWY0e6awyNoAACrwIAAiZaqFetusa6iC_gHx8E")
     await message.reply_text(
-        f"""**Hey, I'm {bn} 🎵
+        f"""**❖ Hy kamu, saya adalah __[Mighty Music Assistant Bot](https://t.me/MightyMusic_bot)__ 🎶**
 
-I can play music in your group's voice call. Developed by [Jason](https://t.me/ImJanindu).
+❖ Saya bisa memutar musik di VCG GROUP atau panggilan suara grup Anda. Dikembangkan Oleh** __[Yunus](https://t.me/ZendYNS)__
 
-Add me to your group and play music freely!**
+❖ Tambahkan** __[Mighty Music Assistant](https://t.me/MightyMusic_Assistant)__ **dan** __[Mighty Music Bot](https://t.me/MightyMusic_bot)__ **ke grup Anda, dan rasakan sensasi mendengar musik di VCG Group anda!**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url="https://github.com/ImJanindu/GroupMusicBot")
+                        "📚 Info Penting 📚", url="https://telegra.ph/Mighty-Music-Assistant-04-20")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/InfinityBOTs_Support"
+                        "🧸 Tele Story", url="Https://t.me/telee_story"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Infinity_BOTs"
+                        "Quotes Official 🧸", url="Https://t.me/Quotes_Channel_Official"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/JEGroupMusicPlayerBot?startgroup=true"
+                        "💠 Pemilik 💠", url="Https//t.me/ZendYNS"
                     )]
             ]
         ),
