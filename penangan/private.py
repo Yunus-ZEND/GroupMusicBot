@@ -25,7 +25,7 @@ async def start(_, message: Message):
                         "🧸 Tele Story", url="Https://t.me/telee_story"
                     ),
                     InlineKeyboardButton(
-                        "Quotes Official 🧸", url="Https://t.me/Quotes_Channel_Official"
+                        "Quotes Official 🧸", url="https://t.me/Quotes_Channel_Official"
                     )
                 ],[ 
                     InlineKeyboardButton(
@@ -43,7 +43,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Infinity_BOTs")
+                        "💠 Pemilik 💠", url="https://t.me/ZendYNS")
                 ]
             ]
         )
