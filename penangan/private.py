@@ -23,10 +23,10 @@ async def start(_, message: Message):
                         "📚 Info Penting 📚", url="https://telegra.ph/Mighty-Music-Assistant-04-20")
                   ],[
                     InlineKeyboardButton(
-                        "🧸 Quotes Official", url="https://t.me/Quotes_Channel_Official"
+                        "🪃 Quotes Official", url="https://t.me/Quotes_Channel_Official"
                     ),
                     InlineKeyboardButton(
-                        "Tele Story 🧸", url="https://t.me/telee_story"
+                        "Tele Story 🪃", url="https://t.me/telee_story"
                     )
                 ],[ 
                     InlineKeyboardButton(
