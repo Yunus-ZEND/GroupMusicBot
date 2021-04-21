@@ -11,7 +11,7 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""**❖ Hy kamu, saya adalah __[Mighty Music Assistant Bot](https://t.me/MightyMusic_bot)__ 🎶**
 
-❖ Saya bisa memutar musik di VCG GROUP atau panggilan suara grup Anda. Dikembangkan Oleh** __[Yunus](https://t.me/ZendYNS)__
+❖ Saya bisa memutar musik di **VCG GROUP** atau panggilan suara grup Anda. Dikembangkan Oleh** __[Yunus](https://t.me/ZendYNS)__
 
 ❖ Tambahkan** __[Mighty Music Assistant](https://t.me/MightyMusic_Assistant)__ **dan** __[Mighty Music Bot](https://t.me/MightyMusic_bot)__ **ke grup Anda, dan rasakan sensasi mendengar musik di VCG Group anda!**
         """,
@@ -22,10 +22,10 @@ async def start(_, message: Message):
                         "📚 Info Penting 📚", url="https://telegra.ph/Mighty-Music-Assistant-04-20")
                   ],[
                     InlineKeyboardButton(
-                        "🧸 Tele Story", url="Https://t.me/telee_story"
+                        "🧸 Quotes Official", url="https://t.me/Quotes_Channel_Official"
                     ),
                     InlineKeyboardButton(
-                        "Quotes Official 🧸", url="https://t.me/Quotes_Channel_Official"
+                        "Tele Story 🧸", url="https://t.me/telee_story"
                     )
                 ],[ 
                     InlineKeyboardButton(
