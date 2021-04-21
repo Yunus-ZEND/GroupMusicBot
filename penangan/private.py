@@ -30,7 +30,7 @@ async def start(_, message: Message):
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "💠 Pemilik 💠", url="Https//t.me/ZendYNS"
+                        "💠 Pemilik 💠", url="Https://t.me/ZendYNS"
                     )]
             ]
         ),
