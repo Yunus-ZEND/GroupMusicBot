@@ -7,6 +7,7 @@ from helpers.filters import other_filters2
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
+    await message.reply_sticker("CAACAgUAAxkBAAEJc-tgf8LIRTgsMIDXr2-IECydFbbmGwACfAMAAiyLoFcuriTh3WiCrh8E")
     await message.reply_sticker("CAACAgUAAxkBAAEJX5NgelpPxIp7TxBi31AWY0e6awyNoAACrwIAAiZaqFetusa6iC_gHx8E")
     await message.reply_text(
         f"""**❖ Hy kamu, saya adalah __[Mighty Music Assistant Bot](https://t.me/MightyMusic_bot)__ 🎶**
@@ -38,12 +39,12 @@ async def start(_, message: Message):
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**Group Music Player Online ✅**""",
+      await message.reply_text("""**Mighty Music Bot Berhasil Diaktifkan ✅**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💠 Pemilik 💠", url="https://t.me/ZendYNS")
+                        "💠 Group 💠", url="https://t.me/Cari_Teman_Online_Group")
                 ]
             ]
         )
